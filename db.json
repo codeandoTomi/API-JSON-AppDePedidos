@@ -1,0 +1,65 @@
+{
+    "platillos": [
+        {
+            "id": 1,
+            "nombre": "pizza",
+            "precio": 800,
+            "categoria": 1
+        },
+        {
+            "id": 2,
+            "nombre": "empanada",
+            "precio": 250,
+            "categoria": 1
+        },
+        {
+            "id": 3,
+            "nombre": "milanesa",
+            "precio": 700,
+            "categoria": 1
+        },
+        {
+            "id": 4,
+            "nombre": "hamburguesa",
+            "precio": 890,
+            "categoria": 1
+        },
+        {
+            "id": 5,
+            "nombre": "ensalada",
+            "precio": 350,
+            "categoria": 1
+        },
+        {
+            "id": 6,
+            "nombre": "papas chedar",
+            "precio": 400,
+            "categoria": 1
+        },
+        {
+            "id": 7,
+            "nombre": "coca cola",
+            "precio": 200,
+            "categoria": 2
+        },
+        {
+            "id": 8,
+            "nombre": "7 up",
+            "precio": 210,
+            "categoria": 2
+        },
+        {
+            "id": 9,
+            "nombre": "fanta",
+            "precio": 180,
+            "categoria": 2
+        },
+        {
+            "id": 10,
+            "nombre": "gatorade",
+            "precio": 270,
+            "categoria": 2
+        }
+    ]
+    
+}

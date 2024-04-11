@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="bg-success border p-1 w-100">
+        <h2 class="fw-bold text-light text-center">Sistema de control de ventas.</h2>
+    </header>
+    <div class="w-100 border p-2 text-center">
+        <button type="button" class="btn btn-primary fw-bold fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Nueva orden
+        </button>
+    </div>
+
+    <div class="container-xl text-center">
+
+        <main class="d-none container p-5 m-2 border bg-secondary rounded" id="platos">
+            <h2 class="fw-bold fs-3 text-center"> Platos </h2>
+            <div class="contenido">
+    
+            </div>
+        </main>
+    
+        <section class="d-none container p-5 m-2 border"> 
+            <h2 class="fw-bold fs-3 text-center"> Resumen de consumo </h2>
+            <div class="contenido row">
+                <p class="Añade los elementos del pedido"></p>
+            </div>
+    
+        </section>
+    </div>
+
+
+<!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Nueva orden...</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form id="form">
+                <div class="modal-body" id="modal-body">
+                    <div class="border p-2 text-center d-flex row ">
+                        <label for="" name="" class="m-1 p-1 fw-bold fs-4">Mesa</label>
+                        <input id="mesa" type="text" class="m-1 p-2 rounded">
+                    </div>
+                    <div class="border p-2 text-center d-flex row ">
+                        <label for="" name="" class="m-1 p-1 fw-bold fs-4">Hora</label>
+                        <input id="hora" type="time" class="m-1 p-2 rounded text-center">
+                    </div>
+                </div>
+            </form>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-success" id="btn-agregar">Agregar orden</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
