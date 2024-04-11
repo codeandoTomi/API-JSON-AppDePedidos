@@ -9,10 +9,10 @@
 </head>
 <body>
     <header class="bg-success border p-1 w-100">
-        <h2 class="fw-bold text-light text-center">Sistema de control de ventas.</h2>
+        <h3 class="fw-bold text-light text-center">Sistema de control de ventas.</h3>
     </header>
     <div class="w-100 border p-2 text-center">
-        <button type="button" class="btn btn-primary fw-bold fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Nueva orden
         </button>
     </div>
@@ -20,16 +20,16 @@
     <div class="container-xl text-center">
 
         <main class="d-none container p-5 m-2 border bg-secondary rounded" id="platos">
-            <h2 class="fw-bold fs-3 text-center"> Platos </h2>
+            <h3 class="fw-bold text-center"> Platos </h3>
             <div class="contenido">
     
             </div>
         </main>
     
-        <section class="d-none container p-5 m-2 border"> 
-            <h2 class="fw-bold fs-3 text-center"> Resumen de consumo </h2>
+        <section class="d-none container p-5 m-2 border" id="resumen"> 
+            <h3 class="fw-bold text-center"> Resumen de consumo </h3>
             <div class="contenido row">
-                <p class="Añade los elementos del pedido"></p>
+                <p class="text-center"> Añade los elementos del pedido.</p>
             </div>
     
         </section>
@@ -47,11 +47,11 @@
             <form id="form">
                 <div class="modal-body" id="modal-body">
                     <div class="border p-2 text-center d-flex row ">
-                        <label for="" name="" class="m-1 p-1 fw-bold fs-4">Mesa</label>
+                        <label for="" name="" class="m-1 p-1 fw-bold">Mesa</label>
                         <input id="mesa" type="text" class="m-1 p-2 rounded">
                     </div>
                     <div class="border p-2 text-center d-flex row ">
-                        <label for="" name="" class="m-1 p-1 fw-bold fs-4">Hora</label>
+                        <label for="" name="" class="m-1 p-1 fw-bold">Hora</label>
                         <input id="hora" type="time" class="m-1 p-2 rounded text-center">
                     </div>
                 </div>
